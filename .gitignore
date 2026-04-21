@@ -1,0 +1,23 @@
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# 深度学习模型权重与视频源文件（绝对不要传到 Git）
+*.pt
+*.pth
+*.mp4
+*.avi
+*.mkv
+
+# 数据库文件
+*.db
+*.sqlite3
+
+# Vue3 前端构建文件与依赖库
+mall-frontend/node_modules/
+mall-frontend/dist/
+mall-frontend/.DS_Store

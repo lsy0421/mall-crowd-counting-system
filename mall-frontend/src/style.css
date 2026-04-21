@@ -1,0 +1,16 @@
+/* 全局基础样式（已移除 Vite 默认模板的大段演示样式，可按项目再扩展） */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#app {
+  min-height: 100%;
+}
